@@ -4,3 +4,5 @@ title: How to install
 ---
 
 # How to install (GUI)
+
+## Prerequisites (GUI)
