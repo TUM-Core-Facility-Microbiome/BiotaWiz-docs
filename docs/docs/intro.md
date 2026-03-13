@@ -2,46 +2,51 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About TACTIC & BiotaWiz
 
-Let's discover **Docusaurus in less than 5 minutes**.
+TACTIC is an incremental, privacy-aware, and user-friendly tool designed for 16S rRNA amplicon sequence analysis, offering a comprehensive and versatile solution to address the challenges of microbial community profiling.
 
-## Getting Started
+It integrates four distinct pipelines—[OTU (legacy clustering)](knowledge-base/description-of-pipelines/kb-pipelines-otu), [zOTU (denoised amplicons)](knowledge-base/description-of-pipelines/kb-pipelines-zotu), and the novel hybrid approaches, [Taxonomy Agnostic Clustering (TAC)](knowledge-base/description-of-pipelines/kb-pipelines-tac) and [Taxonomy Informed Clustering (TIC)](knowledge-base/description-of-pipelines/kb-pipelines-tic)—to provide researchers with flexible options, including conventional methods and advanced strategies that mitigate diversity inflation inherent to denoising.
+To learn more about these pipelines go to our [Pipeline Knowlegebase](category/description-of-pipelines).
 
-Get started by **creating a new site**.
+The platform is accessible via a containerized command-line interface ([TACTIC CLI](quick-start/cli-quickstart)), a stand-alone installable software with a graphical user interface ([BiotaWiz](quick-start/gui-quickstart)), ensuring accessibility, reproducibility, and scalability for users of all computing environments and skill levels. See [below](intro#one-platform-two-ways-to-run) on which interface to choose.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Its results are compatible with downstream analysis tools like Namco and Rhea. Visit [Downstream Analysis](category/downstream-analysis) to learn more.
 
-### What you'll need
+## One platform, two ways to run
+<b>Choose Your Interface</b>
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+TACTIC is the core analysis engine delivered as a Docker container (via Command Line Interface; CLI), while BiotaWiz is the graphical desktop application (Graphical User Interface; GUI) that makes running that engine intuitive and visual.
 
-## Generate a new site
+### Option 1: BiotaWiz (Desktop GUI)
 
-Generate a new Docusaurus site using the **classic template**.
+<i>Best for researchers who prefer a point-and-click workflow.</i>
 
-The classic template will automatically be added to your project after you run the command:
+BiotaWiz provides a modern graphical interface for the TACTIC engine, guiding you step-by-step through available options and paramenters, allowing you to focus on the science rather than the syntax. Abstracting away the overhead of managing Docker images and using the Command Line Interface (CLI), it provides the same speed and reproducibility as the CLI version.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+BiotaWiz is available for <b>Windows</b> and <b>Linux</b> systems.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+[👉 Get Started with BiotaWiz Documentation](quick-start/gui-quickstart)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Option 2: TACTIC CLI
+<i>Best for power users, high-throughput clusters, and automated bioinformatics pipelines.</i>
 
-## Start your site
+The Command Line Interface is the most direct way to interact with TACTIC. It is designed for speed, reproducibility, and integration into larger computational workflows.
 
-Run the development server:
+TACTIC CLI is available on all operating systems supporting Docker including <b>Windows</b>, <b>macOS</b>, and <b>Linux</b>.
 
-```bash
-cd my-website
-npm run start
-```
+[👉 Get Started with CLI Documentation](quick-start/cli-quickstart)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### Which interface to choose?
+| Feature | **BiotaWiz (GUI)** | **TACTIC CLI** |
+| :--- | :--- | :--- |
+| **User Interface** | Visual / Desktop App | Command Line |
+| **Ideal For** | Exploration & Ease of Use | Automation & Scale |
+| **Backend** | WSL2 or Docker | Docker |
+| **Learning Curve** | Low | Moderate |
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Further Resources
+Please visit
+* [Discussion](https://github.com/TUM-Core-Facility-Microbiome/BiotaWiz-docs/discussions) to ask questions or start a Discussion
+* [Issues](https://github.com/TUM-Core-Facility-Microbiome/BiotaWiz-docs/issues) to report a issues or bugs with the software
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

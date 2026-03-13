@@ -2,7 +2,7 @@
   "label": "Quick Start",
   "position": 2,
   "link": {
-    "type": "doc",
-    "id": "quick-start-overview"
+    "type": "generated-index",
+    "title": "Quick Start"
   }
 }

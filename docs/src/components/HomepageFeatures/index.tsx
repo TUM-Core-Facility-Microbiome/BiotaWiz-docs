@@ -11,32 +11,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Four Pipelines, One Platform',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      TACTIC integrates four distinct strategies into a single environment:
+      <li><b>TIC & TAC</b>: Advanced hybrid strategies for improved cluster purity and taxonomic assignment of unknown taxa.</li>
+      <li><b>Legacy OTU</b>: Traditional OTU clustering for comparability.</li>
+      <li><b>zOTU Inference</b>: High-resolution denoising.</li>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Hybrid Resilience to Diversity Inflation',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        While denoising (zOTUs/ASVs) offers high resolution, it often inflates apparent diversity. TACTIC implements Taxonomy-Informed (TIC) and Taxonomy-Agnostic (TAC) clustering to bridge the gap—clustering noise-free sequences to increase resilience against intra-genomic variability while maintaining single-nucleotide precision.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Run Where You Are: Private & Portable',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        TACTIC ensures consistent results across any computing environment.
+        <br />
+        Choose your interface: power through large datasets with the Docker powered Command Line Interface (CLI) or leverage BiotaWiz, our standalone desktop application, for an intuitive, graphical analysis experience.
       </>
     ),
   },

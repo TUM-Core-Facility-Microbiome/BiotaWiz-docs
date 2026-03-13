@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'BiotaWiz',
-  tagline: '16S rRNA amplicon analysis tool',
+  title: 'TACTIC & BiotaWiz',
+  tagline: 'Robust 16S rRNA Amplicon Analysis',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -58,18 +58,18 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'BiotaWiz Documentation',
+      title: 'TACTIC & BiotaWiz Documentation',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         {
           href: 'https://github.com/TUM-Core-Facility-Microbiome/BiotaWiz-docs',
           label: 'GitHub',
@@ -84,7 +84,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
@@ -112,7 +112,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BiotaWiz Developers. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BiotaWiz Developers. Documentation built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

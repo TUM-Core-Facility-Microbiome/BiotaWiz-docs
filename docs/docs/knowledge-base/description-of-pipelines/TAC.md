@@ -1,6 +1,7 @@
 ---
-id: downstream-analysis-rhea
-title: Rhea
+id: kb-pipelines-tac
+title: TAC
+sidebar_position: 3
 ---
 
 :::info[🚧 Work in Progress]

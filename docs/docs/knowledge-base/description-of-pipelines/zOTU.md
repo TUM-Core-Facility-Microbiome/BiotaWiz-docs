@@ -1,6 +1,7 @@
 ---
-id: downstream-analysis-rhea
-title: Rhea
+id: kb-pipelines-zotu
+title: zOTU (denoised amplicons)
+sidebar_position: 2
 ---
 
 :::info[🚧 Work in Progress]

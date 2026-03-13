@@ -1,6 +1,7 @@
 ---
-id: downstream-analysis-rhea
-title: Rhea
+id: kb-pipelines-otu
+title: OTU (legacy clustering)
+sidebar_position: 1
 ---
 
 :::info[🚧 Work in Progress]
