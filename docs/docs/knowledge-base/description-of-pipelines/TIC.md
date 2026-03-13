@@ -4,6 +4,8 @@ title: TIC
 sidebar_position: 4
 ---
 
+# Taxonomy Informed Clustering (TIC)
+
 :::info[🚧 Work in Progress]
 This section of the documentation is currently being developed. 
 

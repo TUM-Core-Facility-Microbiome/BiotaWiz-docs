@@ -4,6 +4,8 @@ title: TAC
 sidebar_position: 3
 ---
 
+# Taxonomy Agnostic Clustering (TAC)
+
 :::info[🚧 Work in Progress]
 This section of the documentation is currently being developed. 
 
